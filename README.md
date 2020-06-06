@@ -1,5 +1,7 @@
 # Exploring Armenia's Energy and Water Resources
 
+[Link to the story map](https://usaid.maps.arcgis.com/apps/MapJournal/index.html?appid=7d94bc889b3c4ff5bc892de734498dd0#map)
+
 ![](https://github.com/chongzhiyang/essay/blob/master/img/overview.png)
 
 ## Introduction
