@@ -1,5 +1,7 @@
 # Exploring Armenia's Energy and Water Resources
 
+![](https://github.com/chongzhiyang/essay/blob/master/img/overview.png)
+
 ## Introduction
 
 The story map talks about the energy and water resources in Armenia in Asia, especially the production of electricity. Armenia has three main sources to produce electricity to power all over the country, thermal, nuclear, and hydropower, around 43% of total electricity production in Armenia are produced by nuclear power plants. Moreover, the story map has multiple maps showing the location of major infrastructure to Armenia’s power grid. More importantly, the renewable sources to produce electricity in a sustainable way to solve the increasing demand of electricity in Armenia. Audiences of this story map can be everyone around the world, and people who interested in the usage of resources and electricity production in Armenia.
@@ -32,6 +34,7 @@ ArcGIS JavaScript libraries and ArcGIS CSS style sheet are used to create multip
 <img id="esri.Map_0_World_Light_Gray_Base_1486_tile_12_0_0" alt="" class="layerTile" src="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/12/1547/2549" style="width: 256px; height: 256px; visibility: inherit; transform: translate(-121px, -227px);">
 ```
 When the client accesses the story map, the codes above will get the base map from ArcGIS server and insert the base map into the story map. The code also includes the size and position of the base map. Also, the sources tag in the DevTools shows more details of the base map files. As the image below shows that multiple small parts of the map combined to compose a whole base map.
+![](https://github.com/chongzhiyang/essay/blob/master/img/sources.png)
 
 Furthermore, the toggle device toolbar functions in the Google chrome DevTools, it shows that the story map supports responsive design, and mobile. However, in mobile devices, the website only can show limited information, in order to view more detail of the map, users need to click some bottoms. Overall, using computer to visit the story map has the most features and more details, it is better for users to understand the story.
 
@@ -42,6 +45,7 @@ In this story map, it uses some base maps from ArcGIS to show different types of
 ## Map element
 
 Each map has a legend that explains the content of each map, except the satellite image map. Also, all the maps have a home bottom to return to the default zoom level, zoom in and zoom out functions, if users want to see more information in a certain area, such as the name of the city. Some of the maps have a popup function that includes a detailed description of each marker. However, there are no scale bar and north arrow to indicate the directions.
+![](https://github.com/chongzhiyang/essay/blob/master/img/mapelement.png)
 
 ## Strengths and Weakness
 
