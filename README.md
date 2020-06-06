@@ -12,11 +12,11 @@ The story map talks about the energy and water resources in Armenia in Asia, esp
 * Explaining distribution and amount of water resources in Armenia. Also, the potential water problems in overuse water resources.
 * Types of renewable and nonrenewable sources were used to produce electricity.
 
-Renewable | Nonrenewable
------------- | -------------
-Wind | Thermal
-Solar | Nuclear
-Hydropower |
+  Renewable | Nonrenewable
+  ------------ | -------------
+  Wind | Thermal
+  Solar | Nuclear
+  Hydropower |
 
 ## Author
 
@@ -54,7 +54,7 @@ function defineDojoConfig()
 		async: !app.isProduction,
 	  has: { "esri-webgl-max-contexts": -1 },
 ```
-The part of codes above, `function defineDojoConfig()` is the configurations parameter for the dojo loader and parser. Dojo loader loads the JavaScript files synchronously or asynchronously, and dojo parser is the function that covert HTML codes into dojo widgets.
+The part of codes above, `function defineDojoConfig()` is the configurations parameter for the dojo loader and parser. Dojo loader loads the JavaScript files synchronously or asynchronously, and dojo parser is the function that covert HTML codes into dojo widgets. Within the fucntion, `isDebug` sets the debug level, in this case, false is the input, which means the debug function is off. And `parseOnLoad` is true, then dojo parser parses HTML document and converts them to dojo widgets automatically. 
 
 Furthermore, the toggle device toolbar functions in the Google chrome DevTools, it shows that the story map supports responsive design, and mobile. However, in mobile devices, the website only can show limited information, in order to view more detail of the map, users need to click some bottoms. Overall, using computer to visit the story map has the most features and more details, it is better for users to understand the story.
 
