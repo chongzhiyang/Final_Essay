@@ -42,6 +42,7 @@ Unlike the leaflet libraries we used in class project, this story map mainly use
 <img id="esri.Map_0_World_Light_Gray_Base_1486_tile_12_0_0" alt="" class="layerTile" src="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/12/1547/2549" style="width: 256px; height: 256px; visibility: inherit; transform: translate(-121px, -227px);">
 ```
 When the client accesses the story map, the codes will receive the base map from ArcGIS server and insert the base map into the story map with some changes according to the codes above. The code also includes the size and position of the base map. Also, the sources tag in the DevTools shows more details of the base map files. As the image below shows that multiple small parts of the map combined to compose a whole base map.
+
 ![](https://github.com/chongzhiyang/essay/blob/master/img/sources.png)
 
 ```JavaScript
