@@ -31,6 +31,7 @@ According to the lecture material in week 2, the system architecture of this sto
 ## Libraries
 
 Unlike the leaflet libraries we used in class project, this story map mainly used ArcGIS libraries, JavaScript and CSS style sheet. These libraries bring multiple functions in the story map, such as legend, locator, and labels. Also, `https://js.arcgis.com/3.32/esri/dijit/BasemapGallery.js` provides base maps for the website.
+
 ![](https://github.com/chongzhiyang/essay/blob/master/img/library.png)
 
 ## Codes
@@ -68,6 +69,7 @@ In this story map, it uses some base maps from ArcGIS to show different types of
 ## Map element
 
 Each map has a legend that explains the content of each map, except the satellite image map. Also, all the maps have a home bottom to return to the default zoom level, zoom in and zoom out functions, if users want to see more information in a certain area, such as the name of the city. Some of the maps have a popup function that includes a detailed description of each marker. However, there are no scale bar and north arrow to indicate the directions.
+
 ![](https://github.com/chongzhiyang/essay/blob/master/img/mapelement.png)
 
 ## Strength and Weakness
